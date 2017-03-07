@@ -1,0 +1,131 @@
+html {
+  font-family: Sans-Serif;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.hidden {
+  display: none;
+}
+
+/*container all notes*/
+#notes-container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/*button add always present*/
+.add-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+/*container top button*/
+.btn-up-container {
+  width: 100%;
+  text-align: right;
+  height: 40px;
+}
+
+/*all button property*/
+.btn {
+  font-family: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 60px;
+  margin: 2px;
+  background-color: #f49b42;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*single note container*/
+.box-note {
+  background-color: #ffffff;
+  width: 100%;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  height: 320px;
+}
+
+/*container textarea*/
+.content-note {
+  padding: 15px;
+  min-height: 180px;
+}
+
+/*textarea*/
+.note {
+  width: 100%;
+  resize: none;
+  background-color: #ffffff;
+  border: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: inherit;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 0.8em;
+}
+
+.edit-mode-btn {
+  width: 100%;
+  text-align: right;
+}
+
+.btn-color {
+  width: 20px;
+  height: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #eaeaea;
+}
+
+/****************
+media query just tablet and phone breakpoint
+mobile first
+*******************/
+
+/* tablet or small sceen */
+@media only screen and (min-width: 600px) {
+  .box-note {
+    width: 45%;
+  }
+}
+
+/* desktop mode */
+@media only screen and (min-width: 768px) {
+  .box-note {
+    width: 30%;
+  }
+}
+
+/* class colors */
+.yellow {
+  background-color: #ffeead;
+}
+
+.green {
+  background-color: #96ceb4;
+}
+
+.orange {
+  background-color: #ffcc5c;
+}
+
+.red {
+  background-color: #ff6f69;
+}
+
+.white {
+  background-color: #ffffff;
+}
